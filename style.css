@@ -48,8 +48,9 @@ nav {
 }
 
 .herocontainer p {
+    justify-content: space-around;
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
 }
 
 hero {
@@ -67,4 +68,28 @@ margin-left:
     margin-left: 100px;
     margin-right: 100px;
     height: 100px;
+}
+.rounded {
+    background: black;
+    display: flex;
+    justify-content: ;
+}
+.rounded p {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#rounded {
+    
+    border-radius: 10px;
+    background: blue;
+    
+    width: 125px;
+    height:35px;  
+}
+.placeholder {
+    display: flex;
+    height: 200px;
+    background: black;
+    width: 400px;
+    margin-top:100px;
 }
